@@ -1,0 +1,15 @@
+.top-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 246px;
+  padding-bottom: 20px;
+}
+
+.top-line__container {
+  width: 50%;
+}
+
+.top-line__title {
+  font-size: 72px;
+}

@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  margin-bottom: 30px;
+}
+
+.header--margin-small {
+  margin-bottom: 56px;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+
+.header__col--align--right {
+  justify-content: flex-end;
+}
+
+.header .menu {
+  margin-right: auto;
+}
