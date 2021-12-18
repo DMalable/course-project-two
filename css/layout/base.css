@@ -29,16 +29,34 @@ body .wrapper {
   margin: 0px auto;
 }
 
+.container {
+  width: 1140px;
+  margin: 0px auto;
+}
+
 .main-page-wrapper {
   background: url("../../img/background1.jpg") center top no-repeat, url("../../img/background2.jpg") center bottom no-repeat;
 }
 
 .services-wrapper {
-  background: url("../../img2/headline.jpg") center top no-repeat;
+  background: white url("../../img2/headline.jpg") center top no-repeat;
+}
+
+.invite-wrapper {
+  background: no-repeat center center url("../../img3/background.png");
+}
+
+.reviews-wrapper {
+  background: white url("../../img2/headline.jpg") center top no-repeat;
+  width: 100%;
 }
 
 .wrapper__content {
   flex: 1;
+}
+
+.wrapper__content--width--wide {
+  width: 100%;
 }
 
 h1,
@@ -66,10 +84,6 @@ button {
 }
 
 /* services page */
-
-.services-wrapper {
-  background: white url("../../img2/headline.jpg") center top no-repeat;
-}
 
 .wrapper__content {
   flex: 1;

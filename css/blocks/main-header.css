@@ -4,7 +4,7 @@
   min-height: 638px;
 }
 
-.main-header--margin-small {
+.main-header--margin--small {
   margin-bottom: 0px;
 }
 
@@ -18,13 +18,10 @@
 }
 
 .main-header__title {
-  /* width: 511px; */
   font-size: 72px;
-  /* margin-bottom: 20px; */
 }
 
 .main-header__subtitle {
-  /* margin-bottom: 30px; */
   font-size: 18px;
 }
 
@@ -38,10 +35,11 @@
   color: white;
   text-transform: uppercase;
   font-family: inherit;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 
 .main-header__button:hover {
   background: #da0100;
   box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+  transition: background 0.5s, box-shadow 0.5s;
 }

@@ -18,3 +18,9 @@
 @import url("blocks2/breadcrumbs.css");
 @import url("blocks2/services.css");
 @import url("blocks2/partners.css");
+
+/* invite page */
+@import url("blocks3/invite.css");
+
+/* reviews page */
+@import url("blocks4/reviews.css");

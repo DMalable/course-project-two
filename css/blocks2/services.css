@@ -63,11 +63,11 @@
   color: #f5170e;
   text-transform: uppercase;
   font-family: inherit;
-  margin-right: auto;
 }
 
 .services__button:hover {
   background: #f5170e;
   border-color: transparent;
   color: white;
+  transition: background 0.5s, box-shadow 0.5s;
 }

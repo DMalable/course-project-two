@@ -19,6 +19,7 @@
 }
 
 .breadcrumbs__item:last-child {
+  margin-right: 0px;
   font-weight: bold;
 }
 
@@ -32,4 +33,5 @@
 
 .breadcrumbs__item-link:hover {
   color: #bbb;
+  transition: 0.5s;
 }

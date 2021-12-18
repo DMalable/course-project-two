@@ -23,6 +23,7 @@
   background-color: white;
   color: #f5170e;
   font-weight: bold;
+  transition: background 0.5s, box-shadow 0.5s;
 }
 
 .paginator__link {
@@ -39,6 +40,10 @@
   color: black;
 }
 
+.paginator--margin--add {
+  margin-bottom: 85px;
+}
+
 .paginator--color--red .paginator__item--active {
   background-color: #f5170e;
   color: white;
@@ -49,4 +54,5 @@
   background-color: #f5170e;
   color: white;
   font-weight: bold;
+  transition: background 0.5s, box-shadow 0.5s;
 }

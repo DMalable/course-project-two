@@ -23,4 +23,5 @@ footer .menu {
 
 .menu__item-link:hover {
   color: #da0100;
+  transition: 0.5s;
 }
