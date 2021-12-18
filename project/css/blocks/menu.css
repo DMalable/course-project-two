@@ -1,0 +1,27 @@
+.menu {
+  margin-left: 80px;
+  margin-right: auto;
+}
+
+footer .menu {
+  margin-top: 4px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  min-width: 264px;
+}
+
+.menu__item {
+  font-size: 14px;
+}
+
+/* .menu__item:last-child {
+  margin-right: 0px;
+} */
+
+.menu__item-link:hover {
+  color: #da0100;
+  transition: 0.5s;
+}
