@@ -14,7 +14,8 @@
 }
 
 .news__item {
-  width: calc(100% / 2 -20px);
+  width: calc(100% / 2 - 12px);
+  border-radius: 5px;
 }
 
 .news__card {

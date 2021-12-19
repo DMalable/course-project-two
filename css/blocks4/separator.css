@@ -1,0 +1,19 @@
+.separator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../img4/fog.png");
+  background-size: cover;
+  min-height: 360px;
+  max-width: 1920px;
+  color: #fff;
+}
+
+.separator__title {
+  font-size: 48px;
+  max-width: 40%;
+}
+
+.separator__pic {
+  align-self: flex-end;
+}
